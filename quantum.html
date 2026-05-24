@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isaac Prem | Quantum Mechanics</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="quantum.js" defer></script>
+</head>
+<body class="quantum-page">
+  <div class="space-background"></div>
+
+  <header>
+    <nav>
+      <h1>Isaac Prem</h1>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#research">Research</a>
+        <a href="index.html#notes">Notes</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="quantum-hero">
+      <div class="hero-content">
+        <small>QUANTUM MECHANICS</small>
+        <h2>Dynamic topic pages with theory, icons, and PDF notes.</h2>
+        <p>Welcome to the dedicated Quantum Mechanics page. Select a topic to view an in-depth explanation, supporting bullets, and quick access to your uploaded study notes.</p>
+        <div class="hero-actions">
+          <a href="index.html" class="button-link">Back to Home</a>
+        </div>
+      </div>
+      <div class="orbit-container" aria-hidden="true">
+        <span class="orbit orbit-1"></span>
+        <span class="orbit orbit-2"></span>
+        <span class="orbit orbit-3"></span>
+        <span class="planet planet-1"></span>
+        <span class="planet planet-2"></span>
+        <span class="planet planet-3"></span>
+      </div>
+    </section>
+
+    <section class="topic-grid">
+      <div class="topic-sidebar">
+        <div class="section-title">
+          <small>TOPIC MAP</small>
+          <h3>Choose a quantum subject</h3>
+        </div>
+        <div class="topic-list" id="topic-list"></div>
+      </div>
+
+      <div class="topic-detail-panel">
+        <div class="topic-summary">
+          <span class="topic-icon" id="topic-icon">⚛️</span>
+          <div class="topic-visual" id="topic-visual">Quantum Insight</div>
+          <small id="topic-label"></small>
+          <h3 id="topic-title"></h3>
+          <p id="topic-intro"></p>
+        </div>
+        <div class="topic-detail-text">
+          <div id="topic-paragraphs"></div>
+          <ul id="topic-bullets"></ul>
+          <div class="topic-footer">
+            <a id="topic-pdf" href="" target="_blank">Open full PDF notes</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="topic-cards">
+      <div class="section-title">
+        <small>DEEPEN YOUR LEARNING</small>
+        <h3>Quantum mechanics note collection</h3>
+      </div>
+      <div class="grid">
+        <a href="quantum/quantum-foundations.pdf" target="_blank" class="card-link">
+          <div class="card">
+            <h4>Quantum Foundations</h4>
+            <p>Hermitian operators, eigenstates, and measurement outcomes.</p>
+            <p class="note-link">Open PDF →</p>
+          </div>
+        </a>
+        <a href="quantum/wigner-eckart-theorem.pdf" target="_blank" class="card-link">
+          <div class="card">
+            <h4>Wigner-Eckart Theorem</h4>
+            <p>Tensor operators, rotation symmetry, and transition matrix elements.</p>
+            <p class="note-link">Open PDF →</p>
+          </div>
+        </a>
+        <a href="quantum/hydrogen-angular-momentum.pdf" target="_blank" class="card-link">
+          <div class="card">
+            <h4>Angular Momentum</h4>
+            <p>Spherical harmonics, ladder operators, and spin addition.</p>
+            <p class="note-link">Open PDF →</p>
+          </div>
+        </a>
+        <a href="quantum/time-dependent-perturbation.pdf" target="_blank" class="card-link">
+          <div class="card">
+            <h4>Time-dependent Perturbation</h4>
+            <p>Transition probabilities, driven systems, and Rabi oscillations.</p>
+            <p class="note-link">Open PDF →</p>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Isaac Prem — Quantum Mechanics Study Hub.
+  </footer>
+</body>
+</html>
+
